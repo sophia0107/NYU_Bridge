@@ -14,13 +14,12 @@ int main()
 
 int fib(int& n)
 {
-    int f1 = 1;
-    int f2 = 1;
-    int i;
-    for(i = 2; i < n; i++)
+    if(n <= 2)
     {
-        f1 = f1 + f2;
-        swap(f1, f2);
+        return 1;
     }
-    return f2;
+    else
+    {
+        return fib(n - 1) + fib(n - 2);
+    }
 }
