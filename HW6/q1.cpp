@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int fib(int& n);
+int fib(int n);
 int main()
 {
     int num, fn;
@@ -12,7 +12,7 @@ int main()
     return 0;
 }
 
-int fib(int& n)
+int fib(int n)
 {
     if(n <= 2)
     {
