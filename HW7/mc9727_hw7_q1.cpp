@@ -51,10 +51,12 @@ string printHeader(int year, int month, int& numOfDays) {
             break;
         case 2:
             header = "Fabruary";
-            if(isLeapYear(year))
+            if(isLeapYear(year)) {
                 numOfDays = 29;
-            else
+            }
+            else {
                 numOfDays = 28;
+            }
             break;
         case 3:
             header = "March";
