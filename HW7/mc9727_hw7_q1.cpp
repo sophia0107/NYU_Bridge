@@ -101,10 +101,10 @@ void printYearCalender(int year, int startingDay) {
             numOfDays = 31;
         }
         else if(isLeapYear(year)) {
-            numOfDays = 28;
+            numOfDays = 29;
         }
         else {
-            numOfDays = 29;
+            numOfDays = 28;
         }
         startingDay = printMonthCalender(numOfDays, startingDay) + 1;
         // Ensure there is a whitespace between the calendar of two months
