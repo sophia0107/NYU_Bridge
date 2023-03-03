@@ -21,6 +21,7 @@ int main() {
 bool isPalindrome(string str) {
     string reverseStr = "";
     int ind;
+    
     for(ind = str.length() - 1; ind >= 0; ind--) {
         reverseStr += str[ind]; 
     }
