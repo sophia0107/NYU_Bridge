@@ -2,9 +2,10 @@
 #include <string>
 using namespace std;
 
+const int NUM_OF_INTEGERS = 20;
+
 int minInArray(int arr[], int arrSize);
 string indicesOfMinInArray(int arr[], int arrSize, int minValue);
-const int NUM_OF_INTEGERS = 20;
 
 int main() {
     int arr[NUM_OF_INTEGERS];
